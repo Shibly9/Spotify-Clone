@@ -1,0 +1,1 @@
+Its a spotify clone web app that i created using HTML, CSS, JavsScript.Enjoy and dont forget to share it with your friends
