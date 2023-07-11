@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #d5d5d5;
+}
+
+.logo img{
+    height: 60px;
+    padding: 0 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    list-style: none;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    /* height: 90px; */
+}
+
+li{
+    padding: 0 15px;
+}
+
+.container{
+    min-height: 71vh;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    background:url('resources/bg.jpg');
+    width: 80%;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.footer{
+    position: sticky;
+    background: black;
+    height: 145px;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white
+    
+}
+
+.currentPlaying{
+    margin: 4px 0;
+}
+
+#progressBar{
+    width: 85vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin: 6px 0px;
+}
+
+.icons i{
+    font-size: 50px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.songContainer{
+    padding-top: 15px;
+}
+
+.song{
+    height: 60px;
+    min-width: 28vw;
+    background: white;
+    border-radius: 10px;
+    color: black;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    /* justify-content: space-between; */
+    /* padding: 0 20px; */
+
+}
+
+.song img{
+    height: 58px;
+    width: 58px;
+    /* height: 98%; */
+    margin: 1px;
+    border-radius: 9px;
+}
+
+.songItem{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    /* margin-right: 48%; */
+    min-width: 19.5vw;
+}
+
+.songName{
+    font-weight: 600;
+}
+
+.artistName{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.songTime{
+    /* margin-left:280px; */
+    width: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.songTime .time{
+    padding-right: 8px;
+}
+
+.songTime .play{
+    cursor: pointer;
+    /* font-size: 20px; */
+}
